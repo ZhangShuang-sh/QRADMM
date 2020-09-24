@@ -1,0 +1,3 @@
+useDynLib(admmquantile)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

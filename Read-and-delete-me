@@ -1,0 +1,18 @@
+* Edit the help file skeletons in 'man', possibly combining help
+  files for multiple functions.
+* Edit the exports in 'NAMESPACE', and add necessary imports.
+* Put any C/C++/Fortran code in 'src'.
+* If you have compiled code, add a useDynLib() directive to
+  'NAMESPACE'.
+* Run R CMD build to build the package tarball.
+* Run R CMD check to check the package tarball.
+
+Read "Writing R Extensions" for more information.
+
+* Some instruction here
+* This package only consists of 2 functions. One of them is  
+* generate_dataR(dimnum,samplenum), another is Example(samplenum = 300,
+* dimnum = 2000,exper_time = 5,r1=2,r2=1,tau=0.2,gamma=3.7,lambda=1) with 
+* default setting as above.
+* If you want to know the runtime, then use system.time(Example()) function 
+* would be a good choice.
