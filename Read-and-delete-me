@@ -16,3 +16,5 @@ Read "Writing R Extensions" for more information.
 * default setting as above.
 * If you want to know the runtime, then use system.time(Example()) function 
 * would be a good choice.
+
+check
